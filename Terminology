@@ -1,0 +1,3 @@
+HDFS : A file system to manage storage of data.
+MapReduce : A framework to define a data processing task.
+YARN : A framework to run a processing task.
