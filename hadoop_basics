@@ -1,13 +1,15 @@
 $jps
 Following should be running -
-DataNode
-NameNode
+DataNode -> Slaves. Where Data is Stored.
+NameNode -> Master. 
 NodeManager
-ResourceManager
+ResourceManager 
 SecondaryNameNode
 
-Hadoop Cluster runs by default on port 8088.
-http://vm2:8088/cluster
+There are two Web UI -
+1. Resource Manger static all the jobs running on hdfs http://vm2:8088/cluster
+2. NameNode UI where it will have info about whole hdfs all the nodes and we can view the file system. http://vm2:9870
+
 
 $hadoop fs -put employee.csv /kumshai/
 $hadoop fs -ls /kumshai
