@@ -1,3 +1,6 @@
  desc test.emp;
  desc extended test.emp;
  create teable test.ProductSynonym(ProductKey int, ISIN string) ROW FORMAT delimited fields terminated by ',' LINES TERMINATED BY '\n' STORED AS TEXTFILE;
+create external table employee (empid int, name string, city string) 
+ROW format delimited fields terminated by ',' lines terminated by '\n' 
+stored as textfile location '/kumshai';
