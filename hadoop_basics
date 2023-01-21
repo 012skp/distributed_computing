@@ -1,0 +1,11 @@
+$jps
+Following should be running -
+DataNode
+NameNode
+NodeManager
+ResourceManager
+SecondaryNameNode
+
+
+$hadoop fs -put employee.csv /kumshai/
+$hadoop fs -ls /kumshai
