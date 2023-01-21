@@ -6,6 +6,8 @@ NodeManager
 ResourceManager
 SecondaryNameNode
 
+Hadoop Cluster runs by default on port 8088.
+http://vm2:8088/cluster
 
 $hadoop fs -put employee.csv /kumshai/
 $hadoop fs -ls /kumshai
